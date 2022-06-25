@@ -22,70 +22,76 @@
             color: white;
             text-align: center;
         }
+
+        div.container{
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th scope="col" rowspan="2" class="cinza">Área</th>
-                <th scope="col" rowspan="2" class="cinza">Disciplinas</th>
-                <th scope="colgroup" colspan="2" class="cinza">Notas</th>
-                <th scope="col" rowspan="2" class="cinza">Média</th>
-            </tr>
-            <tr>
-                <th scope="col" class="cinza">Nota1</th>
-                <th scope="col" class="cinza">Nota2</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="4">Exatas</td>
-                <td>Matemática</td>
-                <td>8.50</td>
-                <td>9.00</td>
-                <td>8.75</td>
-            </tr>
-            <tr>
-                <td>Física</td>
-                <td>8.90</td>
-                <td>8.35</td>
-                <td>8.62</td>
-            </tr>
-            <tr>
-                <td>Química</td>
-                <td>8.80</td>
-                <td>7.90</td>
-                <td>8.35</td>
-            </tr>
-            <tr>
-                <td>Biologia</td>
-                <td>8.60</td>
-                <td>9.00</td>
-                <td>8.80</td>
-            </tr>
-            <tr>
-                <th scope="row" colspan="4" class="cinza">Média de Exatas</th>
-                <td class="cinza">8,63</td>
-            </tr>
-            <tr>
-                <th rowspan="2">Humanas</th>
-                <td>Hístoria</td>
-                <td>7.90</td>
-                <td>8.00</td>
-                <td>7.95</td>
-            </tr>
-            <tr>
-                <td>Geografia</td>
-                <td>8.90</td>
-                <td>10.00</td>
-                <td>9.45</td>
-            </tr>
-            <tr>
-                <th scope="row" colspan="4" class="cinza">Média de Humanas</th>
-                <td class="cinza">8,70</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" rowspan="2" class="cinza">Área</th>
+                    <th scope="col" rowspan="2" class="cinza">Disciplinas</th>
+                    <th scope="colgroup" colspan="2" class="cinza">Notas</th>
+                    <th scope="col" rowspan="2" class="cinza">Média</th>
+                </tr>
+                <tr>
+                    <th scope="col" class="cinza">Nota1</th>
+                    <th scope="col" class="cinza">Nota2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4">Exatas</td>
+                    <td>Matemática</td>
+                    <td>8.50</td>
+                    <td>9.00</td>
+                    <td>8.75</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td>8.90</td>
+                    <td>8.35</td>
+                    <td>8.62</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td>8.80</td>
+                    <td>7.90</td>
+                    <td>8.35</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td>8.60</td>
+                    <td>9.00</td>
+                    <td>8.80</td>
+                </tr>
+                <tr>
+                    <th scope="row" colspan="4" class="cinza">Média de Exatas</th>
+                    <td class="cinza">8,63</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Humanas</th>
+                    <td>Hístoria</td>
+                    <td>7.90</td>
+                    <td>8.00</td>
+                    <td>7.95</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>8.90</td>
+                    <td>10.00</td>
+                    <td>9.45</td>
+                </tr>
+                <tr>
+                    <th scope="row" colspan="4" class="cinza">Média de Humanas</th>
+                    <td class="cinza">8,70</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
